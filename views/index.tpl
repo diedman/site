@@ -41,6 +41,6 @@ We have a very competitive squad of drivers, it will be a challenge. Am I as goo
 <form action="/home" method="post">
         <p><textarea rows="2" cols="50" name="QUEST" placeholder="Your question"></textarea></p> 
         <p><input type="text" size="50" name="ADRESS" placeholder="Your email"></p>
-        <p><input type="submit" value="Send"></p>
+        <p><input type="submit" value="Send" class="btn btn-default"></p>
 </form>
 
