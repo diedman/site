@@ -36,3 +36,11 @@ We have a very competitive squad of drivers, it will be a challenge. Am I as goo
         <p><a class="btn btn-default" href="https://ru.motorsport.com/f1/news/alonso-ya-luchshe-khemiltona-fettelya-i-ferstappena/5884212/">Learn more &raquo;</a></p>
     </div>
 </div>
+
+<h3> Ask a Question </h3>
+<form action="/home" method="post">
+        <p><textarea rows="2" cols="50" name="QUEST" placeholder="Your question"></textarea></p> 
+        <p><input type="text" size="50" name="ADRESS" placeholder="Your email"></p>
+        <p><input type="submit" value="Send"></p>
+</form>
+
