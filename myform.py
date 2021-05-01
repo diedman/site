@@ -10,7 +10,7 @@ def my_form():
 
     if len(quest) == 0:
         return "Sorry, your quest incorrect!"
-    else if number_re.findall(mail):
+    elif number_re.findall(mail):
         return "Thanks! The answer will be sent to the mail %s" % mail
     else:
         return "Sorry, your mail incorrect!"
