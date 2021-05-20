@@ -18,8 +18,6 @@ def my_form():
         questions[mail] = quest
 
         if (mail in questions):
-            questions[mail].append = quest
-        else:
             questions[mail] = quest
         with open('data.txt', 'w') as outfile:
             json.dump(questions, outfile)
