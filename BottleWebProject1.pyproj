@@ -36,8 +36,12 @@
     <Compile Include="myform.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="test\test_T_Form.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="test\" />
     <Folder Include="static\" />
     <Folder Include="static\content\" />
     <Folder Include="static\fonts\" />
